@@ -1,0 +1,100 @@
+
+
+
+grade=float(input("Enter Student grade :" ))
+
+if 15<grade<=20 :
+    print("Excellent","\u2B50")
+
+elif  10<grade<=15 :
+    print("Good luck","\u2705")
+
+elif  5<grade<=10 :
+    print("Needs improvement","\u26A0")
+
+elif   0<=grade<=5:
+    print("Fail","\u274C")
+
+else :
+    print("Invaild grade !","\U0001F92F")
+
+salary=float(input("Enter salary :"))
+
+if salary>=100:
+    print("tax_rate=35%")
+
+
+elif 80<=salary<100 :
+    print("tax_rate=25%")
+
+elif  70<=salary<80 :
+    print("tax_rate=15%")
+
+elif  60<=salary<70 :
+    print("tax_rate=12%")
+
+elif  50<=salary<60 :
+    print("tax_rate=10%")
+
+elif  40<=salary<50 :
+    print("tax_rate=5%")
+
+elif  salary<40 :
+    print("tax_rate=0%")
+
+Name=input("Enter your name :")
+print(Name*10)
+
+fule=float(input("Enter fuel amount(liters):"))
+consumption=float(input("Enter fule consumption(liters per 100km):"))
+
+distance=fule*100/consumption
+print("Distance",distance,"km")
+
+height=float(input("Enter your height (m) :"))
+weight=float(input("Enter your weight (kg) :"))
+bmi=weight/(height**2)
+
+print("BMI",bmi)
+
+if bmi<18.5 :
+    print("Under weight")
+
+elif 18.5<bmi<25 :
+    print("Normal weight ")
+
+elif 25<bmi<30 :
+    print("Over weight")
+
+elif bmi>30 :
+    print("Obese")
+
+Temperature=float(input("Enter temperature :"))
+
+if Temperature <=0 :
+    print("Wear a coat!","\U0001F9E5")
+
+elif 0<Temperature<=10 :
+    print("Wear warm clothes!","\U0001F9E3")
+
+elif 11<=Temperature<25:
+    print("The weather is nice!","\U0001F60A")
+
+elif Temperature>=25 :
+    print("Wear cool clothes!", "\U0001F60E")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
